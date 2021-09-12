@@ -14,6 +14,9 @@ header {
   padding-bottom: 5px;
 
   color: #ffffff;
+}
+
+.header-up-bgc {
   background-color: rgba(22, 31, 73, 1);
 }
 
@@ -48,5 +51,17 @@ header {
 }
 
 .nav-button {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.79;
+  text-align: center;
+  letter-spacing: 0.10998px;
+  text-transform: uppercase;
+
   margin-left: auto;
+  padding: 28px 64px;
+
+  color: #ffffff;
+  background-color: #2468ff;
+  border: none;
 }
