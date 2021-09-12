@@ -1,0 +1,17 @@
+.hero {
+  background-color: rgba(99, 99, 99, 0.5);
+  //   background-image: url('../img/img-hero.jpg');
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 367px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hero .hero-text {
+  font-size: 21px;
+  line-height: 1.38;
+  margin-bottom: 16px;
+}
