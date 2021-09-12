@@ -1,3 +1,52 @@
 header {
-  background-color: teal;
+  width: 1440px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.header-up {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.64;
+  text-align: center;
+  letter-spacing: 0.10998px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  color: #ffffff;
+  background-color: rgba(22, 31, 73, 1);
+}
+
+.header-logo {
+  padding-left: 36px;
+  margin-right: 195px;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list-item {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  letter-spacing: 0.10998px;
+
+  color: #404040;
+}
+
+.nav-list-item:not(last-child) {
+  margin-right: 37px;
+}
+
+.nav-button {
+  margin-left: auto;
 }
