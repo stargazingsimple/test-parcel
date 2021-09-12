@@ -4,6 +4,9 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
+@import './base/base';
+@import './variables';
+
 @import './header';
 @import './hero';
 @import './explore';
@@ -11,5 +14,5 @@
 @import './example';
 
 body {
-  background-color: tomato;
+  font-family: var(--primary-font);
 }
